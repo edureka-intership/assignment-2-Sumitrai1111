@@ -1,0 +1,828 @@
+/*  Navbar Css */
+body{
+    margin: auto;
+    background-color: rgb(244, 239, 233);
+}
+
+.navbar-light {
+    background-color: #3b2632 !important;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+#icon{
+    color: white;
+    padding-left: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(244, 237, 237, 0.907)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(244, 237, 237, 0.907);
+    border-color: rgb(237, 231, 231);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.08rem;
+}
+.w-100 {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.carousel-item{
+    height: 350px;
+    width: 100%;
+    margin-top: 2%;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.ti{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    margin-top: -12%;
+    font-size:28px ;
+    background-color:#eeeee7;
+    color: #3b2632;
+    width: 38%;
+    margin-left: 32%;
+    height: 38px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+#dropdown {
+    width: 60%;
+    height: 20px;
+    margin-left: 20%;
+    margin-top: -6%;
+    position: absolute;
+   
+}
+
+select {
+    font-size: 15px;
+    text-align: center;
+    background-color:#eeeee7;
+    color:#3b2632;
+    width: 45%;
+    height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#restaurants {
+    width: 59%;
+}
+
+/* QuickSearch Css */
+#quicksearch {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 18px #3b2632;
+    display: inline-block;
+    background-color: rgb(244, 238, 230);
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+#quickHeading {
+    display: block;
+    font-size: 30px;
+    margin-left: 10%;
+    color: #3b2632;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#quickSubHeading {
+    display: block;
+    font-size: 20px;
+    margin-left: 10%;
+    color: gray;
+    line-height: 2;
+    font-weight: bolder;
+}
+
+.card1 {
+    height: 80%;
+    width: 80%;
+    box-shadow: 10px 20px 15px #3b2632;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.card2 {
+    height: 80%;
+    width: 80%;
+    box-shadow: 10px 20px 15px #3b2632;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+.card1-img-top {
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+.card2-img-top {
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.card1-title {
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card1-text {
+    margin-left: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card1-title>a {
+    text-decoration: none;
+    color: #3b2632;
+}
+
+/* footer css */
+footer {
+    margin-top: 2%;
+    height: auto;
+    text-align: center;
+    background-color: #3b2632;
+    color: white
+        /* border:2px solid purple */
+}
+.P{
+    font-size: 15px;
+}
+.footDiv {
+    height: 120px;
+    font-size: 20px;
+    width: 50%;
+    float: left;
+    border-right: 2px solid white;
+    border-bottom: 1px solid white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 1%;
+}
+
+.noborder {
+    border: none;
+    border-bottom: 1px solid white;
+}
+.link{
+    margin-top: 2%;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sociallogo {
+    height: 55px;
+    width: 55px;    
+}
+
+.lo{
+    
+    display: inline-block;
+}
+@media screen and (max-width:1285px){
+    .carousel-item{
+        height: 220px;
+    }
+    .navbar-brand {
+        font-size: 25px;
+    }
+    .card1-title{
+        font-size: 22px;
+    }
+    .card1-text{
+        font-size: 15px;
+    }
+    #dropdown {
+        width: 75%;
+        margin-left: 13%;
+        margin-top: -5%;
+    }
+}
+@media screen and (max-width:1125px){
+    .carousel-item{
+        height: 220px;
+    }
+    .navbar-brand {
+        font-size: 25px;
+    }
+    .card1-title{
+        font-size: 18px;
+    }
+    .card1-text{
+        font-size: 12px;
+    }
+    #dropdown {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: -6%;
+    }
+}
+@media screen and (max-width:1025px){
+    .carousel-item{
+        height: 220px;
+    }
+    .navbar-brand {
+        font-size: 25px;
+    }
+    .card1-title{
+        font-size: 18px;
+    }
+    .card1-text{
+        font-size: 12px;
+    }
+    #dropdown {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: -6%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .carousel-item{
+        height: 220px;
+    }
+    .navbar-brand {
+        font-size: 25px;
+    }
+    
+    .card1 {
+        height: 88%;
+        width: 88%;
+        margin-left: 4%;
+    }
+    .card2{
+        height: 88%;
+        width: 88%;
+        margin-left: 4%;
+    }
+    .card1-title{
+        font-size: 20px;
+    }
+    .card1-text{
+        font-size: 11px;
+    }
+    #dropdown {
+        width: 102%;
+        margin-left: -5%;
+        margin-top: -11%;
+    }
+}
+@media screen and (max-width:912px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+    #icon{
+        margin-left: -2%;
+        font-size: 16px;
+    }
+    .carousel-item {
+        height: 280px;
+        width: 100%;
+    }
+    .ti{
+        font-size: 22px;
+        width: 32%;
+        height: 30px;
+    }
+    #quickHeading{
+        font-size: 25px;
+        margin-left: 12%;
+    }
+    #quickSubHeading{
+        font-size: 18px;
+        margin-left: 12%;
+    }
+    #dropdown {
+        width: 100%;
+        margin-left: 2%;
+        margin-top: -10%;
+    }
+    p{
+        font-size: 24px;
+    }
+    .lo{
+        margin-top: -1%;
+    }
+    .sociallogo{
+        height: 50px;
+        width: 50px;
+    }
+    .card1 {
+        height: 88%;
+        width: 88%;
+        margin-left: 4%;
+    }
+    .card2{
+        height: 88%;
+        width: 88%;
+        margin-left: 4%;
+    }
+    .card1-title{
+        font-size: 20px;
+    }
+    .card1-text{
+        font-size: 11px;
+    }
+    #quicksearch{
+        width: 75%;
+        margin-left: 12%;
+    }
+    .link {
+        margin-top: 18%;
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:830px) {
+    .navbar-brand {
+        font-size: 28px;
+    }
+    #icon{
+        margin-left: -2%;
+        font-size: 18px;
+    }
+    #dropdown {
+        width: 105%;
+        margin-left: -2%;
+        margin-top: -10%;
+    }
+    .ti{
+        width: 35%;
+        font-size: 25px;
+    }
+    .card1 {
+        height: 88%;
+        width: 88%;
+        margin-left: 4%;
+    }
+    .card2{
+        height: 88%;
+        width: 88%;
+        margin-left: 4%;
+    }
+    .card1-title{
+        font-size: 20px;
+    }
+    .card1-text{
+        font-size: 11px;
+    }
+    #quicksearch{
+        width: 81%;
+        margin-left: 10%;
+    }
+    .link {
+        margin-top: 18%;
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:480px) {
+    .carousel-item {
+        height: 160px;
+        width: 100%;
+    }
+    .navbar-brand{
+        font-size: 18px;
+    }
+    #icon{
+        margin-left: -5%;
+        font-size: 15px;
+    }
+    .ti {
+        font-size: 12px;
+        width: 55%;
+        margin-left: 22%;
+        height: 18px;
+    }
+
+    #dropdown {
+        width: 75%;
+        margin-left: 15%;
+        margin-top: -19%;
+    }
+    #quicksearch {
+        width: 85%;
+        margin-left: 6%;
+    }
+    #quickHeading {
+        font-size: 20px;
+        margin-left: 8%;
+    }
+    #quickSubHeading {
+        font-size: 15px;
+        margin-left: 8%;
+    }
+    p{
+        font-size: 18px;
+    }
+    .card1 {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: -10%;
+    }
+    .card2 {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: -10%;
+    }
+    .card1-title {
+        font-size: 20px;
+    }
+    .card1-text {
+        font-size: 12px;
+    }
+    select {
+        font-size: 8px;
+        width: 60%;
+        height: 18px;
+    }
+    #restaurants {
+        width: 80%;
+    }
+    .link{
+        font-size: 20px;
+    }
+    .sociallogo{
+        height: 40px;
+        width: 40px;
+    }
+    .P{
+        font-size: 10px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .footDiv {
+        height: 100px;
+    }
+    
+}
+@media screen and (max-width:580px) {
+    .carousel-item {
+        height: 160px;
+        width: 100%;
+    }
+    .navbar-brand{
+        font-size: 18px;
+    }
+    #icon{
+        margin-left: -4%;
+        font-size: 15px;
+    }
+    .ti {
+        font-size: 12px;
+        width: 55%;
+        margin-left: 22%;
+        height: 18px;
+    }
+
+    #dropdown {
+        width: 75%;
+        margin-left: 15%;
+        margin-top: -20%;
+    }
+    #quicksearch {
+        width: 85%;
+        margin-left: 6%;
+    }
+    #quickHeading {
+        font-size: 20px;
+        margin-left: 8%;
+    }
+    #quickSubHeading {
+        font-size: 15px;
+        margin-left: 8%;
+    }
+    p{
+        font-size: 18px;
+    }
+    .card1 {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: -10%;
+    }
+    .card2 {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: -10%;
+    }
+    .card1-title {
+        font-size: 20px;
+    }
+    .card1-text {
+        font-size: 12px;
+    }
+    select {
+        font-size: 8px;
+        width: 60%;
+        height: 18px;
+    }
+    #restaurants {
+        width: 80%;
+    }
+    .link{
+        font-size: 20px;
+    }
+    .sociallogo{
+        height: 40px;
+        width: 40px;
+    }
+    .P{
+        font-size: 10px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .footDiv {
+        height: 100px;
+    }
+    
+}
+@media screen and (max-width:395px) {
+    .carousel-item {
+        height: 160px;
+        width: 100%;
+    }
+    .navbar-brand{
+        font-size: 18px;
+    }
+    #icon{
+        margin-left: -5%;
+        font-size: 16px;
+    }
+    .ti {
+        font-size: 11px;
+        width: 45%;
+        margin-left: 28%;
+        height: 16px;
+    }
+
+    #dropdown {
+        width: 90%;
+        margin-left: 7%;
+        margin-top: -23%;
+    }
+    #quicksearch {
+        width: 85%;
+        margin-left: 6%;
+    }
+    #quickHeading {
+        font-size: 20px;
+        margin-left: 8%;
+    }
+    #quickSubHeading {
+        font-size: 15px;
+        margin-left: 8%;
+    }
+    p{
+        font-size: 18px;
+    }
+    .card1 {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: -10%;
+    }
+    .card2 {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: -10%;
+    }
+    .card1-title {
+        font-size: 20px;
+    }
+    .card1-text {
+        font-size: 12px;
+    }
+    select {
+        font-size: 8px;
+        width: 60%;
+        height: 18px;
+    }
+    #restaurants {
+        width: 80%;
+    }
+    .link{
+        font-size: 20px;
+    }
+    .sociallogo{
+        height: 40px;
+        width: 40px;
+    }
+    .P{
+        font-size: 8px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .footDiv {
+        height: 100px;
+    }
+    
+}
+@media screen and (max-width:282px) {
+    .carousel-item {
+        height: 140px;
+        width: 100%;
+    }
+    .navbar-brand{
+        font-size: 15px;
+    }
+    #icon{
+        margin-left: -7%;
+        font-size: 15px;
+    }
+    .ti {
+        font-size: 10px;
+        width: 45%;
+        margin-left: 28%;
+        height: 15px;
+    }
+
+    #dropdown {
+        width: 110%;
+        margin-left: 0%;
+        margin-top: -28%;
+    }
+    #quicksearch {
+        width: 85%;
+        margin-left: 6%;
+    }
+    #quickHeading {
+        font-size: 18px;
+        margin-left: 8%;
+    }
+    #quickSubHeading {
+        font-size: 12px;
+        margin-left: 8%;
+    }
+    p{
+        font-size: 16px;
+    }
+    .card1 {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: -10%;
+    }
+    .card2 {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: -10%;
+    }
+    .card1-title {
+        font-size: 18px;
+    }
+    .card1-text {
+        font-size: 10px;
+    }
+    select {
+        font-size: 8px;
+        width: 60%;
+        height: 18px;
+    }
+    #restaurants {
+        width: 80%;
+    }
+    .link{
+        font-size: 15px;
+    }
+    .sociallogo{
+        height: 30px;
+        width: 30px;
+    }
+    .P{
+        font-size: 7px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .footDiv {
+        height: 100px;
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .carousel-item {
+        height: 140px;
+        width: 100%;
+    }
+    .navbar-brand{
+        font-size: 16px;
+    }
+    #icon{
+        margin-left: -5%;
+        font-size: 15px;
+    }
+    .ti {
+        font-size: 10px;
+        width: 45%;
+        margin-left: 28%;
+        height: 15px;
+    }
+
+    #dropdown {
+        width: 98%;
+        margin-left: 3%;
+        margin-top: -25%;
+    }
+    #quicksearch {
+        width: 85%;
+        margin-left: 6%;
+    }
+    #quickHeading {
+        font-size: 18px;
+        margin-left: 8%;
+    }
+    #quickSubHeading {
+        font-size: 12px;
+        margin-left: 8%;
+    }
+    p{
+        font-size: 16px;
+    }
+    .card1 {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: -10%;
+    }
+    .card2 {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: -10%;
+    }
+    .card1-title {
+        font-size: 18px;
+    }
+    .card1-text {
+        font-size: 10px;
+    }
+    select {
+        font-size: 8px;
+        width: 60%;
+        height: 18px;
+    }
+    #restaurants {
+        width: 80%;
+    }
+    .link{
+        font-size: 15px;
+    }
+    .sociallogo{
+        height: 30px;
+        width: 30px;
+    }
+    .P{
+        font-size: 8px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .footDiv {
+        height: 100px;
+    }
+    
+}
